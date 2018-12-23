@@ -21,7 +21,7 @@ const configFactory = type => {
       name: 'regexp constant character-class',
       scope: 'constant.other.character-class.regexp',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -86,14 +86,14 @@ const configFactory = type => {
       name: 'deleted.diff',
       scope: 'markup.deleted.diff',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: 'c++ function',
       scope: 'meta.function.c',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -158,7 +158,7 @@ const configFactory = type => {
       name: 'java source',
       scope: 'source.java',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -187,7 +187,7 @@ const configFactory = type => {
       name: 'java variable.name',
       scope: 'meta.definition.variable.name.java',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -260,7 +260,7 @@ const configFactory = type => {
       scope:
         'punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -283,7 +283,7 @@ const configFactory = type => {
       scope:
         'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -316,7 +316,7 @@ const configFactory = type => {
       name: 'js/ts console',
       scope: 'support.type.object.console',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -351,7 +351,7 @@ const configFactory = type => {
       name: 'js dom variable',
       scope: 'support.variable.dom,support.variable.property.dom',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -423,14 +423,14 @@ const configFactory = type => {
       name: 'meta.function-call.arguments.python',
       scope: 'meta.function-call.arguments.python',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: 'meta.function-call.python',
       scope: 'meta.function-call.python',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -494,7 +494,7 @@ const configFactory = type => {
       name: 'Variables',
       scope: 'variable',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -573,7 +573,7 @@ const configFactory = type => {
       name: 'Class name php',
       scope: 'variable.other.class.php',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -729,7 +729,7 @@ const configFactory = type => {
       name: 'Tags',
       scope: 'entity.name.tag',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -774,7 +774,7 @@ const configFactory = type => {
       scope: 'markup.heading',
       settings: {
         fontStyle: 'bold',
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -789,7 +789,7 @@ const configFactory = type => {
       name: 'Units',
       scope: 'keyword.other.unit',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -825,21 +825,21 @@ const configFactory = type => {
       name: '[VSCODE-CUSTOM] Markdown headings',
       scope: 'entity.name.section.markdown',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
       scope: 'punctuation.definition.heading.markdown',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: 'punctuation.definition.list.begin.markdown',
       scope: 'punctuation.definition.list.begin.markdown',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -874,7 +874,7 @@ const configFactory = type => {
       name: '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
       scope: 'punctuation.definition.list.markdown',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -893,21 +893,21 @@ const configFactory = type => {
         'punctuation.definition.metadata.markdown'
       ],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: 'beginning.punctuation.definition.list.markdown',
       scope: ['beginning.punctuation.definition.list.markdown'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: '[VSCODE-CUSTOM] Markdown Punctuation Definition Link',
       scope: 'punctuation.definition.metadata.markdown',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -958,7 +958,7 @@ const configFactory = type => {
       name: 'Embedded',
       scope: 'punctuation.section.embedded, variable.interpolation',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -993,7 +993,7 @@ const configFactory = type => {
       name: 'Source Json Meta Structure Dictionary Json > String Quoted Json',
       scope: 'source.json meta.structure.dictionary.json > string.quoted.json',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1002,7 +1002,7 @@ const configFactory = type => {
       scope:
         'source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1027,14 +1027,14 @@ const configFactory = type => {
       name: '[VSCODE-CUSTOM] JSON Property Name',
       scope: 'support.type.property-name.json',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: '[VSCODE-CUSTOM] JSON Punctuation for Property Name',
       scope: 'support.type.property-name.json punctuation',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1161,7 +1161,7 @@ const configFactory = type => {
       name: 'php dollar sign',
       scope: 'punctuation.definition.variable.php',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1246,7 +1246,7 @@ const configFactory = type => {
       name: 'sass selector',
       scope: 'selector.sass',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1284,7 +1284,7 @@ const configFactory = type => {
       name: 'cs local variable',
       scope: 'entity.name.variable.local.cs',
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1354,14 +1354,14 @@ const configFactory = type => {
       name: 'js class prop',
       scope: ['meta.property.object'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
       name: 'js func parameter',
       scope: ['variable.parameter.function.js'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1438,7 +1438,7 @@ const configFactory = type => {
       name: 'html/pug (jade) escaped characters and entities',
       scope: ['constant.character.entity'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1463,7 +1463,7 @@ const configFactory = type => {
       name: 'Clojure symbols',
       scope: ['meta.symbol.clojure'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1477,7 +1477,7 @@ const configFactory = type => {
       name: 'CoffeeScript Function Argument',
       scope: ['meta.arguments.coffee', 'variable.parameter.function.coffee'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1491,7 +1491,7 @@ const configFactory = type => {
       name: 'Makefile prerequisities',
       scope: ['meta.scope.prerequisites.makefile'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1519,7 +1519,7 @@ const configFactory = type => {
       name: 'Groovy Variables',
       scope: ['meta.definition.variable.name.groovy'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
@@ -1552,7 +1552,7 @@ const configFactory = type => {
       name: 'SQL Variables',
       scope: ['text.variable', 'text.bracketed'],
       settings: {
-        foreground: colorObj['coral']
+        foreground: colorObj['lightGray']
       }
     },
     {
