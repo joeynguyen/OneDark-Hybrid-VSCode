@@ -3,65 +3,8 @@ const _ = require('lodash')
 const colorConfig = require('./color.json')
 
 const configFactory = type => {
-  const colorObj = colorConfig[type]
+  const colorObj = colorConfig['classic']
   let tokenColorsBold
-
-  /**
-   * Overwrites for theme type "bold"
-   */
-  if (type === 'bold') {
-    tokenColorsBold = [
-      {
-        name: 'Markup: Heading',
-        scope: 'markup.heading',
-        settings: {
-          fontStyle: 'bold'
-        }
-      },
-      {
-        name: 'Markup: Strong',
-        scope: 'markup.bold',
-        settings: {
-          fontStyle: 'bold'
-        }
-      },
-      {
-        name: 'Sections',
-        scope: 'entity.name.section',
-        settings: {
-          fontStyle: 'bold'
-        }
-      },
-      {
-        name: 'CSS: Important Keyword',
-        scope: 'keyword.other.important',
-        settings: {
-          fontStyle: 'bold'
-        }
-      },
-      {
-        name: 'Functions',
-        scope: [
-          'entity.name.function',
-          'meta.require',
-          'support.function.any-method',
-          'variable.function'
-        ],
-        settings: {
-          fontStyle: 'bold',
-          foreground: colorObj['malibu']
-        }
-      },
-      {
-        name: 'Classes',
-        scope: 'entity.name.type.namespace',
-        settings: {
-          fontStyle: 'bold',
-          foreground: colorObj['chalky']
-        }
-      }
-    ]
-  }
 
   /**
    * Default theme settings
@@ -1621,27 +1564,11 @@ const configFactory = type => {
     }
   ]
 
-  // add ability to generate custom syntax settings per layout type
-  switch (type) {
-    case 'bold':
-      return {
-        // consider name & scope for deduping
-        tokenColors: _.uniqBy(
-          [...tokenColorsBold, ...tokenColorsDefault],
-          setting => {
-            return setting.name + setting.scope
-          }
-        )
-      }
-    default:
-      return {
-        tokenColors: tokenColorsDefault
-      }
+  return {
+    tokenColors: tokenColorsDefault
   }
 }
 
 module.exports = {
-  classic: configFactory('classic'),
-  bold: configFactory('bold'),
-  vivid: configFactory('vivid')
+  classic: configFactory('classic')
 }

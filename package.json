@@ -31,9 +31,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "One Dark Hybrid",
+        "label": "One Dark Hybrid 2",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneDark-Hybrid.json"
+        "path": "./themes/OneDark-Hybrid2.json"
       }
     ]
   },
