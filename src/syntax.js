@@ -71,7 +71,7 @@ const configFactory = type => {
       name: 'diff',
       scope: 'meta.diff.header.from-file,punctuation.definition.from-file.diff',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -129,7 +129,7 @@ const configFactory = type => {
       name: 'js/ts import keyword',
       scope: 'keyword.operator.expression.import',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -179,7 +179,7 @@ const configFactory = type => {
       name: 'java modifier.import',
       scope: 'meta.method.java',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -200,21 +200,21 @@ const configFactory = type => {
       name: 'operator logical',
       scope: 'keyword.operator.logical.js',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'operator bitwise',
       scope: 'keyword.operator.bitwise',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'operator channel',
       scope: 'keyword.operator.channel',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -229,7 +229,7 @@ const configFactory = type => {
       name: 'CSS/SCSS/LESS Operators',
       scope: 'keyword.operator.css,keyword.operator.scss,keyword.operator.less',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -258,7 +258,7 @@ const configFactory = type => {
       name: 'css property-name',
       scope: 'support.type.vendored.property-name.css',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -305,7 +305,7 @@ const configFactory = type => {
         'meta.array.literal'
       ],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -331,7 +331,7 @@ const configFactory = type => {
         'keyword.operator.optional'
       ],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -352,21 +352,21 @@ const configFactory = type => {
       name: 'js console function',
       scope: 'entity.name.function,support.function.console',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['blue']
       }
     },
     {
       name: 'js operator',
       scope: 'keyword.operator',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'js dom',
       scope: 'support.type.object.dom',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -381,7 +381,7 @@ const configFactory = type => {
       scope:
         'keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -409,18 +409,26 @@ const configFactory = type => {
     {
       name: 'JS/TS Punctuation object destructuring brace',
       scope: [
-        'punctuation.definition.block',
         'punctuation.definition.binding-pattern.object'
       ],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
+      }
+    },
+    {
+      name: 'JS/TS Punctuation object brace',
+      scope: [
+        'punctuation.definition.block'
+      ],
+      settings: {
+        foreground: colorObj['orange']
       }
     },
     {
       name: 'C type posix-reserved',
       scope: 'support.type.posix-reserved.c',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -441,7 +449,7 @@ const configFactory = type => {
       name: 'python type',
       scope: 'support.type.python',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -484,7 +492,7 @@ const configFactory = type => {
       name: 'python function-call.generic',
       scope: 'meta.function-call.generic.python',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -505,14 +513,14 @@ const configFactory = type => {
       name: 'Operators',
       scope: 'keyword.operator',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'Compound Assignment Operators',
       scope: 'keyword.operator.assignment.compound',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -566,7 +574,7 @@ const configFactory = type => {
         'variable.function'
       ],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['blue']
       }
     },
     {
@@ -614,7 +622,7 @@ const configFactory = type => {
         'support.class.component'
       ],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -628,7 +636,7 @@ const configFactory = type => {
       name: 'Keyword Control',
       scope: 'keyword.control',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -649,14 +657,14 @@ const configFactory = type => {
       name: 'Control Elements',
       scope: 'control.elements, keyword.operator.less',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'Methods',
       scope: 'keyword.other.special-method',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -677,7 +685,7 @@ const configFactory = type => {
     //   name: 'Function JS TS',
     //   scope: 'storage.type.function',
     //   settings: {
-    //     foreground: colorObj['cyan']
+    //     foreground: colorObj['teal']
     //   }
     // },
     {
@@ -738,7 +746,7 @@ const configFactory = type => {
         'meta.embedded.expression'
       ],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -752,7 +760,7 @@ const configFactory = type => {
       name: 'Constant other symbol',
       scope: 'constant.other.symbol',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -808,7 +816,7 @@ const configFactory = type => {
       name: 'Attribute IDs',
       scope: 'entity.other.attribute-name.id',
       settings: {
-        foreground: colorObj['malibu'],
+        foreground: colorObj['teal'],
         fontStyle: 'normal'
       }
     },
@@ -847,7 +855,7 @@ const configFactory = type => {
       scope:
         'markup.heading punctuation.definition.heading, entity.name.section',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -988,7 +996,7 @@ const configFactory = type => {
       scope:
         'string.other.link.title.markdown,string.other.link.description.markdown',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1009,14 +1017,14 @@ const configFactory = type => {
       name: 'Regular Expressions',
       scope: 'string.regexp',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'Escape Characters',
       scope: 'constant.character.escape',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1085,7 +1093,7 @@ const configFactory = type => {
       scope:
         'source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1184,7 +1192,7 @@ const configFactory = type => {
       scope:
         'meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1207,7 +1215,7 @@ const configFactory = type => {
       name: 'php goto',
       scope: 'entity.name.goto-label.php,support.other.php',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1215,7 +1223,7 @@ const configFactory = type => {
       scope:
         'keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1229,7 +1237,7 @@ const configFactory = type => {
       name: 'php comparison',
       scope: 'keyword.operator.comparison.php',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1250,7 +1258,7 @@ const configFactory = type => {
       name: 'python function decorator @',
       scope: 'meta.function.decorator.python',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1258,7 +1266,7 @@ const configFactory = type => {
       scope:
         'support.token.decorator.python,meta.function.decorator.identifier.python',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1293,14 +1301,14 @@ const configFactory = type => {
       name: 'constant.language.symbol.ruby',
       scope: 'constant.language.symbol.ruby',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
       name: 'rgb-value',
       scope: 'rgb-value',
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1345,7 +1353,7 @@ const configFactory = type => {
       name: 'block scope',
       scope: 'block.scope.end,block.scope.begin',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1365,7 +1373,7 @@ const configFactory = type => {
     {
       scope: 'token.info-token',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1390,11 +1398,10 @@ const configFactory = type => {
       name: 'String interpolation',
       scope: [
         'punctuation.definition.template-expression.begin',
-        'punctuation.definition.template-expression.end',
-        'punctuation.section.embedded'
+        'punctuation.definition.template-expression.end'
       ],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1415,7 +1422,7 @@ const configFactory = type => {
       name: 'js Flowtype',
       scope: ['support.type.type.flowtype'],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1471,7 +1478,7 @@ const configFactory = type => {
       name: 'js operator.assignment',
       scope: ['keyword.operator.assignment'],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1492,7 +1499,7 @@ const configFactory = type => {
       name: 'elm prelude',
       scope: ['support.type.prelude.elm'],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1524,7 +1531,7 @@ const configFactory = type => {
         'entity.other.attribute-name.pseudo-class'
       ],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1545,7 +1552,7 @@ const configFactory = type => {
       name: 'Clojure constants',
       scope: ['constant.keyword.clojure'],
       settings: {
-        foreground: colorObj['cyan']
+        foreground: colorObj['teal']
       }
     },
     {
@@ -1587,7 +1594,7 @@ const configFactory = type => {
       name: 'Groovy Methods',
       scope: ['meta.method.groovy'],
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['teal']
       }
     },
     {
