@@ -264,9 +264,9 @@ const configFactory = type => {
     {
       name: 'js/ts template-expression',
       scope:
-        'punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end',
+        'punctuation.definition.string.template.begin,punctuation.definition.string.template.end',
       settings: {
-        foreground: colorObj['lightGray']
+        foreground: colorObj['purple']
       }
     },
     {
@@ -295,8 +295,7 @@ const configFactory = type => {
     {
       name: 'array-literal brace',
       scope: [
-        'meta.array.literal.js.jsx',
-        'meta.array.literal.tsx'
+        'meta.array.literal'
       ],
       settings: {
         foreground: colorObj['cyan']
@@ -325,7 +324,7 @@ const configFactory = type => {
         'keyword.operator.optional'
       ],
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['malibu']
       }
     },
     {
@@ -403,8 +402,8 @@ const configFactory = type => {
     {
       name: 'JS/TS Punctuation object destructuring brace',
       scope: [
-        'punctuation.definition.binding-pattern.object.js',
-        'punctuation.definition.binding-pattern.object.tsx'
+        'punctuation.definition.block',
+        'punctuation.definition.binding-pattern.object'
       ],
       settings: {
         foreground: colorObj['malibu']
@@ -506,7 +505,7 @@ const configFactory = type => {
       name: 'Compound Assignment Operators',
       scope: 'keyword.operator.assignment.compound',
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['malibu']
       }
     },
     {
@@ -605,8 +604,7 @@ const configFactory = type => {
     {
       name: 'JSX component',
       scope: [
-        'support.class.component.js.jsx',
-        'support.class.component.tsx'
+        'support.class.component'
       ],
       settings: {
         foreground: colorObj['cyan']
@@ -623,7 +621,14 @@ const configFactory = type => {
       name: 'Keyword Control',
       scope: 'keyword.control',
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['cyan']
+      }
+    },
+    {
+      name: 'Keyword Control',
+      scope: 'keyword.control.flow',
+      settings: {
+        foreground: colorObj['peach']
       }
     },
     {
@@ -637,7 +642,7 @@ const configFactory = type => {
       name: 'Control Elements',
       scope: 'control.elements, keyword.operator.less',
       settings: {
-        foreground: colorObj['orange']
+        foreground: colorObj['malibu']
       }
     },
     {
@@ -661,13 +666,13 @@ const configFactory = type => {
         foreground: colorObj['purple']
       }
     },
-    {
-      name: 'Function JS TS',
-      scope: 'storage.type.function',
-      settings: {
-        foreground: colorObj['cyan']
-      }
-    },
+    // {
+    //   name: 'Function JS TS',
+    //   scope: 'storage.type.function',
+    //   settings: {
+    //     foreground: colorObj['cyan']
+    //   }
+    // },
     {
       name:
         'Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void',
@@ -722,8 +727,8 @@ const configFactory = type => {
     {
       name: 'Meta embedded expression',
       scope: [
-        'meta.embedded.expression.js.jsx',
-        'meta.embedded.expression.tsx'
+        'meta.embedded.expression',
+        'meta.embedded.expression'
       ],
       settings: {
         foreground: colorObj['cyan']
@@ -768,7 +773,7 @@ const configFactory = type => {
       name: 'Constants',
       scope: 'constant',
       settings: {
-        foreground: colorObj['malibu']
+        foreground: colorObj['orange']
       }
     },
     {
@@ -1382,7 +1387,7 @@ const configFactory = type => {
         'punctuation.section.embedded'
       ],
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['malibu']
       }
     },
     {
