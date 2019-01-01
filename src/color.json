@@ -13,6 +13,7 @@
     "green": "#98c379",
     "cyan": "#56b6c2",
     "invalid": "#ffffff",
-    "lightWhite": "#bbbbbb"
+    "lightWhite": "#bbbbbb",
+    "yellow": "#b5bd68"
   }
 }
