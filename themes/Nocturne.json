@@ -1464,7 +1464,7 @@
         "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "#6c72e8"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1519,42 +1519,6 @@
       ],
       "settings": {
         "foreground": "#abb2bf"
-      }
-    },
-    {
-      "name": "js template literals begin",
-      "scope": [
-        "keyword.other.template.begin"
-      ],
-      "settings": {
-        "foreground": "#a0bd6f"
-      }
-    },
-    {
-      "name": "js template literals end",
-      "scope": [
-        "keyword.other.template.end"
-      ],
-      "settings": {
-        "foreground": "#a0bd6f"
-      }
-    },
-    {
-      "name": "js template literals variable braces begin",
-      "scope": [
-        "keyword.other.substitution.begin"
-      ],
-      "settings": {
-        "foreground": "#a0bd6f"
-      }
-    },
-    {
-      "name": "js template literals variable braces end",
-      "scope": [
-        "keyword.other.substitution.end"
-      ],
-      "settings": {
-        "foreground": "#a0bd6f"
       }
     },
     {

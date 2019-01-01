@@ -1433,7 +1433,7 @@ const configFactory = type => {
         'punctuation.definition.template-expression.end'
       ],
       settings: {
-        foreground: colorObj['slateBlue']
+        foreground: colorObj['purple']
       }
     },
     {
@@ -1476,34 +1476,6 @@ const configFactory = type => {
       scope: ['variable.parameter.function.js'],
       settings: {
         foreground: colorObj['lightGray']
-      }
-    },
-    {
-      name: 'js template literals begin',
-      scope: ['keyword.other.template.begin'],
-      settings: {
-        foreground: colorObj['green']
-      }
-    },
-    {
-      name: 'js template literals end',
-      scope: ['keyword.other.template.end'],
-      settings: {
-        foreground: colorObj['green']
-      }
-    },
-    {
-      name: 'js template literals variable braces begin',
-      scope: ['keyword.other.substitution.begin'],
-      settings: {
-        foreground: colorObj['green']
-      }
-    },
-    {
-      name: 'js template literals variable braces end',
-      scope: ['keyword.other.substitution.end'],
-      settings: {
-        foreground: colorObj['green']
       }
     },
     {

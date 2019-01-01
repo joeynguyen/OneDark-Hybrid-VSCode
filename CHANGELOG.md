@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.4
+- Differentiate template string expression braces color
+
 ## 1.0.3
 - Update screenshots
 
