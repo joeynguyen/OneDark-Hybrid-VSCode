@@ -35,7 +35,7 @@ const configFactory = type => {
       scope:
         'punctuation.definition.string.begin,punctuation.definition.string.end',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -78,7 +78,7 @@ const configFactory = type => {
       name: 'inserted.diff',
       scope: 'markup.inserted.diff',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -491,7 +491,7 @@ const configFactory = type => {
       name: 'python placeholder reset to normal string',
       scope: 'constant.character.format.placeholder.other.python',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -745,7 +745,7 @@ const configFactory = type => {
       name: 'Strings, Inherited Class',
       scope: 'string, entity.other.inherited-class',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -925,14 +925,14 @@ const configFactory = type => {
       name: '[VSCODE-CUSTOM] Markdown Inline Raw',
       scope: 'markup.inline.raw.markdown',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
       name: '[VSCODE-CUSTOM] Markdown Inline Raw',
       scope: 'markup.inline.raw.string.markdown',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -1076,7 +1076,7 @@ const configFactory = type => {
       scope:
         'source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation',
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -1102,7 +1102,7 @@ const configFactory = type => {
         'string.quoted.single.json'
       ],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -1443,28 +1443,28 @@ const configFactory = type => {
       name: 'js template literals begin',
       scope: ['keyword.other.template.begin'],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
       name: 'js template literals end',
       scope: ['keyword.other.template.end'],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
       name: 'js template literals variable braces begin',
       scope: ['keyword.other.substitution.begin'],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
       name: 'js template literals variable braces end',
       scope: ['keyword.other.substitution.end'],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -1559,7 +1559,7 @@ const configFactory = type => {
       name: 'Ini Default Text',
       scope: ['source.ini'],
       settings: {
-        foreground: colorObj['yellow']
+        foreground: colorObj['green']
       }
     },
     {
@@ -1600,7 +1600,7 @@ const configFactory = type => {
     {
       name: 'Groovy Inheritance',
       scope: ['meta.definition.class.inherited.classes.groovy'],
-      settings: { foreground: colorObj['yellow'] }
+      settings: { foreground: colorObj['green'] }
     },
     {
       name: 'HLSL Semantic',
