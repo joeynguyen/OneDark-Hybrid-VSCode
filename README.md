@@ -1,4 +1,4 @@
-# [Nocturne Theme for Visual Studio Code](https://github.com/joeynguyen/nocturne-theme-vscode)
+# [Nocturne Theme for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=joeynguyen.nocturne-theme-vscode)
 
 A combination of subdued colors that are easier on the eyes when coding at night (or anytime of the day).
 
