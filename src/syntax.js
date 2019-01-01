@@ -367,7 +367,7 @@ const configFactory = type => {
       name: 'js dom variable',
       scope: 'support.variable.dom,support.variable.property.dom',
       settings: {
-        foreground: colorObj['lightGray']
+        foreground: colorObj['orange']
       }
     },
     {
