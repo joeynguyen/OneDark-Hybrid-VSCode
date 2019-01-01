@@ -14,8 +14,8 @@ A combination of subdued colors that are easier on the eyes when coding at night
 JS
 ![JS Screenshot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/js.jpg)
 
-TSX
-![TSX Screenshot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/tsx.jpg)
+JSX
+![JSX Screenshot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/jsx.jpg)
 
 JSON
 ![JSON ScreenShot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/json.jpg)
