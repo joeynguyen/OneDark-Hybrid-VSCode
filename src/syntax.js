@@ -293,6 +293,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'js variable readwrite',
+      scope: 'meta.object-literal.key',
+      settings: {
+        fontStyle: 'italic'
+      }
+    },
+    {
       name: 'array-literal brace',
       scope: [
         'meta.array.literal'
