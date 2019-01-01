@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.2
+- Replace cyan with slateBlue for better contrast
+
 ## 1.0.1
 - Changed yellow to green for better contrast
 
