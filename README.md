@@ -42,11 +42,11 @@ for more helpful information.
 
 You also can custom your syntax highlighting in "setting.json"
 
-![setting.json](https://ws4.sinaimg.cn/large/006tNbRwgy1fvwjoqnbtgj31kw101whv.jpg)
+![setting.json](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/color-customizations.jpg)
 
-![custom](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwjpwnq7bj30qu14w3zr.jpg)
+![custom](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/workbench-colors.jpg)
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
 ## Credits
-This repo was forked from the awesome [OneDark-Pro project](https://github.com/Binaryify/OneDark-Pro). Credit goes to everyone who has contributed to that project in making that project so great.
+This repo was forked from the awesome [OneDark-Pro project](https://github.com/Binaryify/OneDark-Pro). Credit goes to everyone who has contributed to that project and making it great.
