@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.3
+- Update screenshots
+
 ## 1.0.2
 - Replace cyan with slateBlue for better contrast
 
