@@ -2,7 +2,7 @@
   "name": "nocturne-theme-vscode",
   "displayName": "Nocturne Theme",
   "description": "A combination of subdued colors that are easy on the eyes when typing at night (or anytime of the day)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "joeynguyen",
   "bugs": {
     "url": "https://github.com/joeynguyen/nocturne-theme-vscode/issues"
