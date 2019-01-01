@@ -26,12 +26,6 @@ content starts at 4-columns in.
 > They can span multiple paragraphs,
 > if you like.
 
-
-[![Marketplace](http://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) [![Installs](http://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)  
-VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme
-
-![Sample image](sample.png)
-
 * **Bold Item in List**: Element in list `ClientId`
 
 * **Secret Key**: item in list *italic*

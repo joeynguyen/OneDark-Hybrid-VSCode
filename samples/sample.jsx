@@ -1,10 +1,11 @@
 import * as React from 'react';
+import { get } from 'lodash';
 
 export class Test extends React.Component {
     render(){
         return (
 			<>
-				<div foo={this.props.bar} bar={true} baz={'str'} boz={"other str"}></div>
+				<div foo={this.props.bar} bar={true} baz={get('str')} boz={"other str"}></div>
 				<MissionIcon />
 			</>
         );

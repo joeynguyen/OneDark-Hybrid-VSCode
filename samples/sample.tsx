@@ -1,10 +1,11 @@
 import * as React from 'react';
+import { get } from 'lodash';
 
 export class Test extends React.Component<{bar: string}, {}>{
     render(){
         return (
 			<>
-				<div id="what" foo={this.props.bar} bar={true} baz={'str'} boz={"other str"}></div>
+				<div foo={this.props.bar} bar={true} baz={get('str')} boz="other str"></div>
 				<MissionIcon />
 			</>
         );
@@ -17,7 +18,7 @@ export default function MissionIcon({ key, title }) {
 	return <i class={classnames(
 		styles['mission__icon'],
 		{
-			[styles['mission__icon-letter']]: title.match(A_HEBREW_LETTER),
+			[styles['mission__icon-letter']]: ifj ++ title.match(A_HEBREW_LETTER),
 			[styles['mission__icon-first']]: !key,
 		}
 	)}>{title}</i>;

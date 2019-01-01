@@ -1,16 +1,16 @@
 {
-  "name": "One-Dark-Hybrid",
-  "displayName": "One Dark Hybrid 2",
-  "description": "My own color preferences",
+  "name": "nocturne-theme",
+  "displayName": "Nocturne Theme",
+  "description": "A combination of subdued colors that are easy on the eyes when typing at night (or anytime of the day)",
   "version": "1.0.0",
   "publisher": "joeynguyen",
   "bugs": {
-    "url": "https://github.com/joeynguyen/OneDark-Hybrid-VSCode/issues"
+    "url": "https://github.com/joeynguyen/nocturne-theme-vscode/issues"
   },
-  "homepage": "https://github.com/joeynguyen/OneDark-Hybrid-VSCode",
+  "homepage": "https://github.com/joeynguyen/nocturne-theme-vscode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joeynguyen/OneDark-Hybrid-VSCode"
+    "url": "https://github.com/joeynguyen/nocturne-theme-vscode"
   },
   "engines": {
     "vscode": "^1.12.0"
@@ -31,15 +31,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "One Dark Hybrid 2",
+        "label": "Nocturne Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneDark-Hybrid2.json"
+        "path": "./themes/Nocturne.json"
       }
     ]
   },
   "icon": "icon.png",
   "keywords": [
-    "one dark hybrid",
+    "nocturne",
     "theme"
   ],
   "devDependencies": {

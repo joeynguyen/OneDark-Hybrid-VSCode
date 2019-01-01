@@ -1,48 +1,24 @@
-# [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+# [Nocturne Theme for Visual Studio Code](https://github.com/joeynguyen/nocturne-theme-vscode)
 
-Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
+A combination of subdued colors that are easier on the eyes when coding at night (or anytime of the day).
 
-[GitHub repository](https://github.com/Binaryify/OneDark-Pro)
-
-
-![screenshot](https://i.imgur.com/4xrtS6m.png)
+[GitHub repository](https://github.com/joeynguyen/nocturne-theme-vscode)
 
 
 # CHANGELOG
 
 [CHANGELOG.MD](CHANGELOG.md)
 
-# Docs & Contribute
+# ScreenShots
 
-This document
-([https://binaryify.github.io/OneDark-Pro/](https://binaryify.github.io/OneDark-Pro/))
-includes instructions on how to install and edit the theme.
+JS
+![JS Screenshot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/js.jpg)
 
-To help with documentation, first fork and clone this repository.
+TSX
+![TSX Screenshot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/tsx.jpg)
 
-`cd` to the `OneDark-Pro` folder
-
-Run `npm install`
-
-Then run
-`npm run docs` to serve the documentation
-locally at `localhost:3000`.
-
-# ScreenShot
-
-![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
-
-![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
-
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot1.png)
-
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/php.png)
-
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/screenshot2.png)
-
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/js.png)
-
-![ScreenShot](https://raw.githubusercontent.com/Binaryify/OneDark-Pro/master/static/cpp.png)
+JSON
+![JSON ScreenShot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/json.jpg)
 
 ## Tweaks & Workbench theming
 
@@ -72,13 +48,5 @@ You also can custom your syntax highlighting in "setting.json"
 
 [More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
 
-## Contributors
-
-[<img alt="ergenekonyigit" src="https://avatars0.githubusercontent.com/u/30497573?s=460&v=4" width="117">](https://github.com/beastdestroyer)[<img alt="ergenekonyigit" src="https://avatars3.githubusercontent.com/u/7110136?v=4&s=117" width="117">](https://github.com/ergenekonyigit)[<img alt="vvs" src="https://avatars1.githubusercontent.com/u/9781?v=4&s=117" width="117">](https://github.com/vvs)[<img alt="harshpatel991" src="https://avatars0.githubusercontent.com/u/3893673?v=4&s=117" width="117">](https://github.com/harshpatel991)[<img alt="merkjs" src="https://avatars2.githubusercontent.com/u/780118?v=4&s=117" width="117">](https://github.com/merkjs)[<img alt="nicovak" src="https://avatars0.githubusercontent.com/u/6214452?v=4&s=117" width="117">](https://github.com/nicovak)
-
-[<img alt="wersimmon" src="https://avatars1.githubusercontent.com/u/185822?v=4&s=117" width="117">](https://github.com/wersimmon)
-[<img alt="asvetliakov" src="https://avatars2.githubusercontent.com/u/8881674?v=4&s=117" width="117">](https://github.com/asvetliakov)[<img alt="dcervenkov" src="https://avatars3.githubusercontent.com/u/23052054?v=4&s=117" width="117">](https://github.com/dcervenkov)[<img alt="ikatyang" src="https://avatars1.githubusercontent.com/u/8341033?v=4&s=117" width="117">](https://github.com/ikatyang)[<img alt="waterdanceTV" src="https://avatars3.githubusercontent.com/u/31411367?v=4&s=117" width="117">](https://github.com/waterdanceTV)[<img alt="jonathanlaflamme" src="https://avatars1.githubusercontent.com/u/21099980?v=4&s=117" width="117">](https://github.com/jonathanlaflamme)
-
-[<img alt="Raul6469" src="https://avatars2.githubusercontent.com/u/24607388?v=4&s=117" width="117">](https://github.com/Raul6469)[<img alt="garritfra" src="https://avatars3.githubusercontent.com/u/32395585?v=4&s=117" width="117">](https://github.com/garritfra)[<img alt="Or3stis" src="https://avatars0.githubusercontent.com/u/11923550?v=4&s=117" width="117">](https://github.com/Or3stis)[<img alt="Zueuk" src="https://avatars1.githubusercontent.com/u/5717247?v=4&s=117" width="117">](https://github.com/Zueuk)[<img alt="will-stone" src="https://avatars1.githubusercontent.com/u/654103?v=4&s=117" width="117">](https://github.com/will-stone)[<img alt="svipben" src="https://avatars3.githubusercontent.com/u/10441177?v=4&s=117" width="117">](https://github.com/svipben)
-
-[<img alt="jens1o" src="https://avatars2.githubusercontent.com/u/11234139?v=4&s=117" width="117">](https://github.com/jens1o)[<img alt="jens1o" src="https://avatars3.githubusercontent.com/u/12221718?s=460&v=4" width="117">](https://github.com/Binaryify)
+## Credits
+This repo was forked from the awesome [OneDark-Pro project](https://github.com/Binaryify/OneDark-Pro). Credit goes to everyone who has contributed to that project in making that project so great.
