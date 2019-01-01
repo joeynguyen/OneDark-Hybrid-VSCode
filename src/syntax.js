@@ -669,7 +669,7 @@ const configFactory = type => {
       scope: 'keyword.control.flow',
       settings: {
         // don't use purple, which is used for storage (variables)
-        foreground: colorObj['slateBlue']
+        foreground: colorObj['peach']
       }
     },
     {

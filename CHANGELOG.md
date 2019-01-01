@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.6
+- Update icon
+
 ## 1.0.5
 - Differentiate color of 'return' statement from storage variables
 
