@@ -668,7 +668,8 @@ const configFactory = type => {
       name: 'Keyword Control',
       scope: 'keyword.control.flow',
       settings: {
-        foreground: colorObj['purple']
+        // don't use purple, which is used for storage (variables)
+        foreground: colorObj['slateBlue']
       }
     },
     {

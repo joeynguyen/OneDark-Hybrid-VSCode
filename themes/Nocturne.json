@@ -727,7 +727,7 @@
       "name": "Keyword Control",
       "scope": "keyword.control.flow",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#6c72e8"
       }
     },
     {

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.5
+- Differentiate color of 'return' statement from storage variables
+
 ## 1.0.4
 - Differentiate template string expression braces color
 
