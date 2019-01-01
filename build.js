@@ -3,7 +3,7 @@ const editorConfig = require('./src/editor.json')
 const { classic } = require('./src/syntax')
 
 fs.writeFileSync(
-  './themes/OneDark-Hybrid2.json',
+  './themes/Nocturne.json',
   JSON.stringify(
     {
       ...editorConfig,
