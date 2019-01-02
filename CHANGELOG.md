@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.7
+- Remove italics on JS objects and changed color on assignment operator to lessen color noise
+
 ## 1.0.6
 - Update icon
 
