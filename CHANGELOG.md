@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.8
+- Update color of JSX components for better contrast with props
+
 ## 1.0.7
 - Remove italics on JS objects and changed color on assignment operator to lessen color noise
 
