@@ -22,7 +22,7 @@ export default function MissionIcon({ key, title }) {
 	return <i class={classnames(
 		styles['mission__icon'],
 		{
-			[styles['mission__icon-letter']]: ifj ++ title.match(A_HEBREW_LETTER),
+			[styles['mission__icon-letter']]: ifj ++ title.match(A_STRANGE_LETTER),
 			[styles['mission__icon-first']]: !key,
 		}
 	)}>{title}</i>;
