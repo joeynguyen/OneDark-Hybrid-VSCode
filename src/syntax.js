@@ -656,7 +656,7 @@ const configFactory = type => {
         'support.class.component'
       ],
       settings: {
-        foreground: colorObj['slateBlue']
+        foreground: colorObj['green']
       }
     },
     {
