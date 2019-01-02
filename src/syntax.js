@@ -299,13 +299,13 @@ const configFactory = type => {
         foreground: colorObj['lightGray']
       }
     },
-    {
-      name: 'js variable readwrite',
-      scope: 'meta.object-literal.key',
-      settings: {
-        fontStyle: 'italic'
-      }
-    },
+    // {
+    //   name: 'js variable readwrite',
+    //   scope: 'meta.object-literal.key',
+    //   settings: {
+    //     fontStyle: 'italic'
+    //   }
+    // },
     {
       name: 'array-literal brace',
       scope: [
@@ -432,9 +432,18 @@ const configFactory = type => {
       }
     },
     {
-      name: 'JS/TS Punctuation function brace',
+      name: 'Punctuation function parenthesis',
       scope: [
         'meta.function'
+      ],
+      settings: {
+        foreground: colorObj['lightGray']
+      }
+    },
+    {
+      name: 'Punctuation function brace',
+      scope: [
+        'meta.block'
       ],
       settings: {
         foreground: colorObj['blue']
@@ -1483,7 +1492,7 @@ const configFactory = type => {
       name: 'js operator.assignment',
       scope: ['keyword.operator.assignment'],
       settings: {
-        foreground: colorObj['slateBlue']
+        foreground: colorObj['lightGray']
       }
     },
     {

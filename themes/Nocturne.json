@@ -362,13 +362,6 @@
       }
     },
     {
-      "name": "js variable readwrite",
-      "scope": "meta.object-literal.key",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "array-literal brace",
       "scope": [
         "meta.array.literal"
@@ -492,9 +485,18 @@
       }
     },
     {
-      "name": "JS/TS Punctuation function brace",
+      "name": "Punctuation function parenthesis",
       "scope": [
         "meta.function"
+      ],
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "Punctuation function brace",
+      "scope": [
+        "meta.block"
       ],
       "settings": {
         "foreground": "#61afef"
@@ -1527,7 +1529,7 @@
         "keyword.operator.assignment"
       ],
       "settings": {
-        "foreground": "#6c72e8"
+        "foreground": "#abb2bf"
       }
     },
     {
