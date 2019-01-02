@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.9
+- Changed color of JS object keys to give contrast to object values
+
 ## 1.0.8
 - Update color of JSX components for better contrast with props
 
