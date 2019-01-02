@@ -107,7 +107,7 @@ const configFactory = type => {
       name: 'js/ts punctuation separator key-value',
       scope: 'punctuation.separator.key-value',
       settings: {
-        foreground: colorObj['lightWhite']
+        foreground: colorObj['lightCyan']
       }
     },
     {
@@ -294,18 +294,19 @@ const configFactory = type => {
     {
       name: 'js variable readwrite',
       scope:
-        'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
+        'variable.other.readwrite,support.variable.property,support.variable.object.process,support.variable.object.node',
       settings: {
-        foreground: colorObj['lightGray']
+        foreground: colorObj['lightWhite']
       }
     },
-    // {
-    //   name: 'js variable readwrite',
-    //   scope: 'meta.object-literal.key',
-    //   settings: {
-    //     fontStyle: 'italic'
-    //   }
-    // },
+    {
+      name: 'js variable readwrite',
+      scope: 'meta.object-literal.key',
+      settings: {
+        // fontStyle: 'italic'
+        foreground: colorObj['lightCyan']
+      }
+    },
     {
       name: 'array-literal brace',
       scope: [
