@@ -6,7 +6,11 @@ export class Test extends React.Component<{bar: string}, {}>{
         return (
 			<>
 				<div foo={this.props.bar} bar={true} baz={get('str')} boz="other str"></div>
-				<MissionIcon />
+				<MissionIcon
+					foo={this.props.bar}
+					bar={true}
+					boz="other str"
+				/>
 			</>
         );
     }
