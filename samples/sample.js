@@ -79,8 +79,9 @@ function func(param) {
     text += i;
   }
   return {
-    "text": text,
-    "number": 25132,
-    "boolean": false
+    variable: text,
+    "some-text": "Something",
+    bigNumber: 2513200223218,
+    boolean: false
   };
 }
