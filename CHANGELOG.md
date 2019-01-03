@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.11
+- Update README with name of font in screenshots
+
 ## 1.0.10
 - Changed color of JS object string keys to match non-string keys. Change color of number types to differentiate from boolean types.
 
