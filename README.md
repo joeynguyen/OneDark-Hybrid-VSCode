@@ -1,6 +1,8 @@
 # [Nocturne Theme for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=joeynguyen.nocturne-theme-vscode)
 
-A combination of subdued colors that are easier on the eyes when coding at night (or anytime of the day).
+A combination of colorful but subdued colors that are easier on the eyes when coding at night (or anytime of the day).
+
+If you like the font in the screenshots, it's Inconsolata-dz - https://github.com/chrissimpkins/codeface/tree/master/fonts/inconsolata-dz
 
 [GitHub repository](https://github.com/joeynguyen/nocturne-theme-vscode)
 
