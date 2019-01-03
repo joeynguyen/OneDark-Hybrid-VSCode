@@ -64,7 +64,7 @@ window.requestAnimFrame = (function(){
 })(angular);
 
 
-const options, hey = {
+const options = {
 	method: 'GET',
 	uri: 'https://api.github.com/com/search/repositores',
 	headers: {
