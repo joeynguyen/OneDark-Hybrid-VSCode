@@ -102,8 +102,11 @@
       }
     },
     {
-      "name": "punctuation.definition",
-      "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
+      "name": "string quotes",
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.single"
+      ],
       "settings": {
         "foreground": "#a0bd6f"
       }
@@ -362,8 +365,13 @@
       }
     },
     {
-      "name": "js variable readwrite",
-      "scope": "meta.object-literal.key",
+      "name": "js object key",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object-literal.key string.quoted.double",
+        "meta.object-literal.key string.quoted.single",
+        "meta.object-literal.key string"
+      ],
       "settings": {
         "foreground": "#96BCD7"
       }
@@ -851,7 +859,7 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#6c72e8"
       }
     },
     {

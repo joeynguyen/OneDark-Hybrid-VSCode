@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.0.10
+- Changed color of JS object string keys to match non-string keys. Change color of number types to differentiate from boolean types.
+
 ## 1.0.9
 - Changed color of JS object keys to give contrast to object values
 

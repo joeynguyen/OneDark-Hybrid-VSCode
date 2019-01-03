@@ -80,6 +80,7 @@ function func(param) {
   }
   return {
     "text": text,
+    "number": 25132,
     "boolean": false
   };
 }

@@ -31,9 +31,11 @@ const configFactory = type => {
       }
     },
     {
-      name: 'punctuation.definition',
-      scope:
-        'punctuation.definition.string.begin,punctuation.definition.string.end',
+      name: 'string quotes',
+      scope: [
+        'string.quoted.double',
+        'string.quoted.single',
+      ],
       settings: {
         foreground: colorObj['green']
       }
@@ -300,8 +302,13 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js variable readwrite',
-      scope: 'meta.object-literal.key',
+      name: 'js object key',
+      scope: [
+        'meta.object-literal.key',
+        'meta.object-literal.key string.quoted.double',
+        'meta.object-literal.key string.quoted.single',
+        'meta.object-literal.key string',
+      ],
       settings: {
         // fontStyle: 'italic'
         foreground: colorObj['lightCyan']
@@ -803,7 +810,7 @@ const configFactory = type => {
       name: 'Integers',
       scope: 'constant.numeric',
       settings: {
-        foreground: colorObj['orange']
+        foreground: colorObj['slateBlue']
       }
     },
     {
