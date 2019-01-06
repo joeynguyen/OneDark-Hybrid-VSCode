@@ -1184,6 +1184,13 @@
       }
     },
     {
+      "name": "Json Meta Structure Dictionary",
+      "scope": "meta.structure.dictionary.json",
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
       "name": "Json Meta Structure Array",
       "scope": "meta.structure.array.json",
       "settings": {
