@@ -968,13 +968,12 @@
       "name": "Headings",
       "scope": "markup.heading",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#bbbbbb"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Headings",
-      "scope": "markup.heading punctuation.definition.heading, entity.name.section",
+      "scope": "entity.name.section",
       "settings": {
         "foreground": "#6c72e8"
       }
@@ -987,15 +986,15 @@
       }
     },
     {
-      "name": "Bold",
-      "scope": "markup.bold,todo.bold",
+      "name": "Todo Bold",
+      "scope": "todo.bold",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#d19a66"
+        "foreground": "#c678dd"
       }
     },
     {
-      "name": "Bold",
+      "name": "Punctuation Bold",
       "scope": "punctuation.definition.bold",
       "settings": {
         "foreground": "#e5c07b"
@@ -1005,7 +1004,7 @@
       "name": "Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1017,23 +1016,12 @@
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown headings",
-      "scope": "entity.name.section.markdown",
+      "scope": [
+        "markup.heading",
+        "markup.heading entity.name.section"
+      ],
       "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
-      "scope": "punctuation.definition.heading.markdown",
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "punctuation.definition.list.begin.markdown",
-      "scope": "punctuation.definition.list.begin.markdown",
-      "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -1047,7 +1035,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1065,13 +1053,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
-      "scope": "punctuation.definition.list.markdown",
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {
@@ -1080,20 +1061,25 @@
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] Markdown Numbered List",
+      "scope": "markup.list.numbered",
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Unnumbered List",
+      "scope": "markup.list.unnumbered",
+      "settings": {
+        "foreground": "#96bcd7"
+      }
+    },
+    {
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
       "scope": [
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown"
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "beginning.punctuation.definition.list.markdown",
-      "scope": [
-        "beginning.punctuation.definition.list.markdown"
       ],
       "settings": {
         "foreground": "#bbbbbb"
@@ -1110,7 +1096,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#61afef"
       }
     },
     {
@@ -1131,7 +1117,8 @@
       "name": "markup.bold.markdown",
       "scope": "markup.bold.markdown",
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#c678dd"
       }
     },
     {

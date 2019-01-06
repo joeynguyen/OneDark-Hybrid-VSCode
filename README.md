@@ -22,6 +22,9 @@ JSX
 JSON
 ![JSON ScreenShot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/json.jpg)
 
+Markdown
+![Markdown ScreenShot](https://raw.githubusercontent.com/joeynguyen/nocturne-theme-vscode/master/static/md.jpg)
+
 ## Tweaks & Workbench theming
 
 If you want to play around with new colors, use the setting

@@ -919,14 +919,13 @@ const configFactory = type => {
       name: 'Headings',
       scope: 'markup.heading',
       settings: {
-        fontStyle: 'bold',
-        foreground: colorObj['lightWhite']
+        fontStyle: 'bold'
       }
     },
     {
       name: 'Headings',
       scope:
-        'markup.heading punctuation.definition.heading, entity.name.section',
+        'entity.name.section',
       settings: {
         foreground: colorObj['slateBlue']
       }
@@ -939,15 +938,15 @@ const configFactory = type => {
       }
     },
     {
-      name: 'Bold',
-      scope: 'markup.bold,todo.bold',
+      name: 'Todo Bold',
+      scope: 'todo.bold',
       settings: {
         fontStyle: 'bold',
-        foreground: colorObj['orange']
+        foreground: colorObj['purple']
       }
     },
     {
-      name: 'Bold',
+      name: 'Punctuation Bold',
       scope: 'punctuation.definition.bold',
       settings: {
         foreground: colorObj['peach']
@@ -957,7 +956,7 @@ const configFactory = type => {
       name: 'Italic',
       scope: 'markup.italic, punctuation.definition.italic,todo.emphasis',
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['orange']
       }
     },
     {
@@ -969,25 +968,29 @@ const configFactory = type => {
     },
     {
       name: '[VSCODE-CUSTOM] Markdown headings',
-      scope: 'entity.name.section.markdown',
+      scope: 'markup.heading entity.name.section',
+      scope: [
+        'markup.heading',
+        'markup.heading entity.name.section'
+      ],
       settings: {
-        foreground: colorObj['lightWhite']
+        foreground: colorObj['cyan']
       }
     },
-    {
-      name: '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
-      scope: 'punctuation.definition.heading.markdown',
-      settings: {
-        foreground: colorObj['lightWhite']
-      }
-    },
-    {
-      name: 'punctuation.definition.list.begin.markdown',
-      scope: 'punctuation.definition.list.begin.markdown',
-      settings: {
-        foreground: colorObj['lightWhite']
-      }
-    },
+    // {
+    //   name: '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
+    //   scope: 'punctuation.definition.heading.markdown',
+    //   settings: {
+    //     foreground: colorObj['lightWhite']
+    //   }
+    // },
+    // {
+    //   name: 'punctuation.definition.list.begin.markdown',
+    //   scope: 'punctuation.definition.list.begin.markdown',
+    //   settings: {
+    //     foreground: colorObj['lightWhite']
+    //   }
+    // },
     {
       name: '[VSCODE-CUSTOM] Markdown heading setext',
       scope: 'markup.heading.setext',
@@ -999,7 +1002,7 @@ const configFactory = type => {
       name: '[VSCODE-CUSTOM] Markdown Punctuation Definition Bold',
       scope: 'punctuation.definition.bold.markdown',
       settings: {
-        foreground: colorObj['orange']
+        foreground: colorObj['purple']
       }
     },
     {
@@ -1016,13 +1019,13 @@ const configFactory = type => {
         foreground: colorObj['green']
       }
     },
-    {
-      name: '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
-      scope: 'punctuation.definition.list.markdown',
-      settings: {
-        foreground: colorObj['lightWhite']
-      }
-    },
+    // {
+    //   name: '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
+    //   scope: 'punctuation.definition.list.markdown',
+    //   settings: {
+    //     foreground: colorObj['lightWhite']
+    //   }
+    // },
     {
       name: '[VSCODE-CUSTOM] Markdown Quote',
       scope: 'markup.quote.markdown',
@@ -1032,19 +1035,26 @@ const configFactory = type => {
       }
     },
     {
+      name: '[VSCODE-CUSTOM] Markdown Numbered List',
+      scope: 'markup.list.numbered',
+      settings: {
+        foreground: colorObj['peach'],
+      }
+    },
+    {
+      name: '[VSCODE-CUSTOM] Markdown Unnumbered List',
+      scope: 'markup.list.unnumbered',
+      settings: {
+        foreground: colorObj['lightCyan'],
+      }
+    },
+    {
       name: '[VSCODE-CUSTOM] Markdown Punctuation Definition String',
       scope: [
         'punctuation.definition.string.begin.markdown',
         'punctuation.definition.string.end.markdown',
         'punctuation.definition.metadata.markdown'
       ],
-      settings: {
-        foreground: colorObj['lightWhite']
-      }
-    },
-    {
-      name: 'beginning.punctuation.definition.list.markdown',
-      scope: ['beginning.punctuation.definition.list.markdown'],
       settings: {
         foreground: colorObj['lightWhite']
       }
@@ -1061,7 +1071,7 @@ const configFactory = type => {
       scope:
         'markup.underline.link.markdown,markup.underline.link.image.markdown',
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['blue']
       }
     },
     {
@@ -1083,7 +1093,8 @@ const configFactory = type => {
       name: 'markup.bold.markdown',
       scope: 'markup.bold.markdown',
       settings: {
-        fontStyle: 'bold'
+        fontStyle: 'bold',
+        foreground: colorObj['purple']
       }
     },
     {

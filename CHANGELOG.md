@@ -1,4 +1,7 @@
 # CHANGELOG
+## 1.1.12
+- Update colors for Markdown and add screenshot
+
 ## 1.0.12
 - Update JS/TS control flow and object key colors
 - Update JSON array and dicitonary colors
