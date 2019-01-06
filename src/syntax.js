@@ -351,9 +351,9 @@ const configFactory = type => {
     },
     {
       name: 'js/ts console',
-      scope: 'support.type.object.console',
+      scope: 'support.class.console',
       settings: {
-        foreground: colorObj['lightGray']
+        foreground: colorObj['orange']
       }
     },
     {
@@ -365,9 +365,9 @@ const configFactory = type => {
     },
     {
       name: 'js console function',
-      scope: 'entity.name.function,support.function.console',
+      scope: 'support.function.console',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['lightWhite']
       }
     },
     {
@@ -412,6 +412,13 @@ const configFactory = type => {
       scope: 'punctuation.separator.delimiter',
       settings: {
         foreground: colorObj['lightWhite']
+      }
+    },
+    {
+      name: 'Punctuation Accessor',
+      scope: 'punctuation.accessor',
+      settings: {
+        foreground: colorObj['blue']
       }
     },
     {
@@ -610,10 +617,16 @@ const configFactory = type => {
     {
       name: 'Functions',
       scope: [
-        'entity.name.function',
-        'meta.require',
-        'support.function.any-method',
-        'variable.function'
+        'meta.function-call'
+      ],
+      settings: {
+        foreground: colorObj['lightWhite']
+      }
+    },
+    {
+      name: 'Function definition',
+      scope: [
+        'meta.function'
       ],
       settings: {
         foreground: colorObj['blue']
