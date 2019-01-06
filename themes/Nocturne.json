@@ -176,13 +176,6 @@
       }
     },
     {
-      "name": "js/ts punctuation separator key-value",
-      "scope": "punctuation.separator.key-value",
-      "settings": {
-        "foreground": "#61afef"
-      }
-    },
-    {
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
@@ -375,7 +368,7 @@
       }
     },
     {
-      "name": "js object key",
+      "name": "object key",
       "scope": [
         "meta.object-literal.key",
         "meta.object-literal.key string.quoted.double",
@@ -383,7 +376,14 @@
         "meta.object-literal.key string"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#96bcd7"
+      }
+    },
+    {
+      "name": "object key punctuation separator key-value",
+      "scope": "punctuation.separator.key-value",
+      "settings": {
+        "foreground": "#96bcd7"
       }
     },
     {
@@ -767,7 +767,7 @@
       "name": "Keyword Control",
       "scope": "keyword.control.flow",
       "settings": {
-        "foreground": "#96bcd7"
+        "foreground": "#61afef"
       }
     },
     {

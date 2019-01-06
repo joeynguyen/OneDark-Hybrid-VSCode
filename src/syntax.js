@@ -106,13 +106,6 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js/ts punctuation separator key-value',
-      scope: 'punctuation.separator.key-value',
-      settings: {
-        foreground: colorObj['blue']
-      }
-    },
-    {
       name: 'js/ts italic',
       scope:
         'entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super',
@@ -312,7 +305,7 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js object key',
+      name: 'object key',
       scope: [
         'meta.object-literal.key',
         'meta.object-literal.key string.quoted.double',
@@ -321,7 +314,14 @@ const configFactory = type => {
       ],
       settings: {
         // fontStyle: 'italic'
-        foreground: colorObj['blue']
+        foreground: colorObj['lightCyan']
+      }
+    },
+    {
+      name: 'object key punctuation separator key-value',
+      scope: 'punctuation.separator.key-value',
+      settings: {
+        foreground: colorObj['lightCyan']
       }
     },
     {
@@ -709,7 +709,7 @@ const configFactory = type => {
       scope: 'keyword.control.flow',
       settings: {
         // don't use purple, which is used for storage (variables)
-        foreground: colorObj['lightCyan']
+        foreground: colorObj['blue']
       }
     },
     {
