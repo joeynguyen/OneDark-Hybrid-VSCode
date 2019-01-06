@@ -1,5 +1,5 @@
 # CHANGELOG
-## 1.1.12
+## 1.1.0
 - Update colors for Markdown and add screenshot
 
 ## 1.0.12
