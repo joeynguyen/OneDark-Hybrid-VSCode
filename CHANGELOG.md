@@ -1,4 +1,10 @@
 # CHANGELOG
+## 1.0.12
+- Update JS/TS control flow and object key colors
+- Update JSON array and dicitonary colors
+- Change color of function calls to white to lessen color noise
+- Change most of usages of blue to cyan to reduce eye strain (blue is a bit too bright)
+
 ## 1.0.11
 - Update README with name of font in screenshots
 

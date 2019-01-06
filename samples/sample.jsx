@@ -5,7 +5,7 @@ export class Test extends React.Component {
     render(){
         return (
 			<>
-				<div foo={this.props.bar} bar={true} baz={get('str')} boz={"other str"}></div>
+				<div foo={this.props.bar} bar={true} baz={get('str')} boz="other str"></div>
 				<MissionIcon
 					foo={this.props.bar}
 					bar={true}
