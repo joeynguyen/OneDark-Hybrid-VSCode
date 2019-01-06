@@ -109,7 +109,7 @@ const configFactory = type => {
       name: 'js/ts punctuation separator key-value',
       scope: 'punctuation.separator.key-value',
       settings: {
-        foreground: colorObj['lightCyan']
+        foreground: colorObj['blue']
       }
     },
     {
@@ -138,7 +138,7 @@ const configFactory = type => {
       name: 'js/ts import brace',
       scope: 'meta.import',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -271,11 +271,21 @@ const configFactory = type => {
       }
     },
     {
-      name: 'js/ts template-expression',
+      name: 'js/ts template-expression quotes',
       scope:
         'punctuation.definition.string.template.begin,punctuation.definition.string.template.end',
       settings: {
-        foreground: colorObj['purple']
+        foreground: colorObj['blue']
+      }
+    },
+    {
+      name: 'template-expression String interpolation',
+      scope: [
+        'punctuation.definition.template-expression.begin',
+        'punctuation.definition.template-expression.end'
+      ],
+      settings: {
+        foreground: colorObj['blue']
       }
     },
     {
@@ -283,14 +293,14 @@ const configFactory = type => {
       scope:
         'support.module.node,support.type.object.module,support.module.node',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
       name: 'entity.name.type.module',
       scope: 'entity.name.type.module',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -311,7 +321,7 @@ const configFactory = type => {
       ],
       settings: {
         // fontStyle: 'italic'
-        foreground: colorObj['lightCyan']
+        foreground: colorObj['blue']
       }
     },
     {
@@ -418,7 +428,7 @@ const configFactory = type => {
       name: 'Punctuation Accessor',
       scope: 'punctuation.accessor',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -434,7 +444,7 @@ const configFactory = type => {
         'punctuation.definition.binding-pattern.object'
       ],
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -443,7 +453,7 @@ const configFactory = type => {
         'meta.objectliteral'
       ],
       settings: {
-        foreground: colorObj['slateBlue']
+        foreground: colorObj['lightWhite']
       }
     },
     {
@@ -452,7 +462,7 @@ const configFactory = type => {
         'meta.function'
       ],
       settings: {
-        foreground: colorObj['lightGray']
+        foreground: colorObj['lightWhite']
       }
     },
     {
@@ -461,7 +471,7 @@ const configFactory = type => {
         'meta.block'
       ],
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -629,7 +639,7 @@ const configFactory = type => {
         'meta.function'
       ],
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -764,7 +774,7 @@ const configFactory = type => {
       name: 'Support',
       scope: 'support.function',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -858,7 +868,7 @@ const configFactory = type => {
       name: 'Constants import export',
       scope: 'constant.language.import-export-all',
       settings: {
-        foreground: colorObj['blue']
+        foreground: colorObj['cyan']
       }
     },
     {
@@ -887,7 +897,7 @@ const configFactory = type => {
       name: 'Attribute class',
       scope: 'entity.other.attribute-name.class.css',
       settings: {
-        foreground: colorObj['blue'],
+        foreground: colorObj['cyan'],
         fontStyle: 'normal'
       }
     },
@@ -1123,6 +1133,20 @@ const configFactory = type => {
       scope: 'invalid.unimplemented',
       settings: {
         foreground: colorObj['invalid']
+      }
+    },
+    {
+      name: 'Json Meta Structure Array',
+      scope: 'meta.structure.array.json',
+      settings: {
+        foreground: colorObj['blue']
+      }
+    },
+    {
+      name: 'Json Meta Structure Array Punctuation',
+      scope: 'punctuation.separator.array.json',
+      settings: {
+        foreground: colorObj['lightWhite']
       }
     },
     {
@@ -1453,16 +1477,6 @@ const configFactory = type => {
     },
     {
       scope: 'token.debug-token',
-      settings: {
-        foreground: colorObj['purple']
-      }
-    },
-    {
-      name: 'String interpolation',
-      scope: [
-        'punctuation.definition.template-expression.begin',
-        'punctuation.definition.template-expression.end'
-      ],
       settings: {
         foreground: colorObj['purple']
       }

@@ -43,7 +43,7 @@
     "theme"
   ],
   "devDependencies": {
-    "lodash": "^4.17.11",
-    "pre-commit": "^1.2.2"
+    "lodash": "4.17.11",
+    "pre-commit": "1.2.2"
   }
 }

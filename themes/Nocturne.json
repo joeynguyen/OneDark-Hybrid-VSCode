@@ -179,7 +179,7 @@
       "name": "js/ts punctuation separator key-value",
       "scope": "punctuation.separator.key-value",
       "settings": {
-        "foreground": "#96BCD7"
+        "foreground": "#61afef"
       }
     },
     {
@@ -207,7 +207,7 @@
       "name": "js/ts import brace",
       "scope": "meta.import",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -337,24 +337,34 @@
       }
     },
     {
-      "name": "js/ts template-expression",
+      "name": "js/ts template-expression quotes",
       "scope": "punctuation.definition.string.template.begin,punctuation.definition.string.template.end",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "template-expression String interpolation",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#61afef"
       }
     },
     {
       "name": "js/ts module",
       "scope": "support.module.node,support.type.object.module,support.module.node",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
       "name": "entity.name.type.module",
       "scope": "entity.name.type.module",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -373,7 +383,7 @@
         "meta.object-literal.key string"
       ],
       "settings": {
-        "foreground": "#96BCD7"
+        "foreground": "#61afef"
       }
     },
     {
@@ -478,7 +488,7 @@
       "name": "Punctuation Accessor",
       "scope": "punctuation.accessor",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -494,7 +504,7 @@
         "punctuation.definition.binding-pattern.object"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -503,7 +513,7 @@
         "meta.objectliteral"
       ],
       "settings": {
-        "foreground": "#6c72e8"
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -512,7 +522,7 @@
         "meta.function"
       ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -521,7 +531,7 @@
         "meta.block"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -688,7 +698,7 @@
         "meta.function"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -813,7 +823,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -907,7 +917,7 @@
       "name": "Constants import export",
       "scope": "constant.language.import-export-all",
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#65adb2"
       }
     },
     {
@@ -936,7 +946,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#61afef",
+        "foreground": "#65adb2",
         "fontStyle": "normal"
       }
     },
@@ -1171,6 +1181,20 @@
       "scope": "invalid.unimplemented",
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Json Meta Structure Array",
+      "scope": "meta.structure.array.json",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Json Meta Structure Array Punctuation",
+      "scope": "punctuation.separator.array.json",
+      "settings": {
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -1483,16 +1507,6 @@
     },
     {
       "scope": "token.debug-token",
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "String interpolation",
-      "scope": [
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end"
-      ],
       "settings": {
         "foreground": "#c678dd"
       }
