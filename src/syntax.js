@@ -305,6 +305,13 @@ const configFactory = type => {
       }
     },
     {
+      name: 'jsx children variable calls',
+      scope: 'meta.jsx.children variable.other.readwrite',
+      settings: {
+        foreground: colorObj['lightCyan']
+      }
+    },
+    {
       name: 'object key',
       scope: [
         'meta.object-literal.key',
@@ -1452,6 +1459,28 @@ const configFactory = type => {
         'support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx',
       settings: {
         foreground: colorObj['orange']
+      }
+    },
+    {
+      name: 'js, ts class field declarations',
+      scope: [
+        'meta.field.declaration.js.jsx variable',
+        'meta.field.declaration.ts variable',
+        'meta.field.declaration.tsx variable'
+      ],
+      settings: {
+        foreground: colorObj['orange']
+      }
+    },
+    {
+      name: 'js, ts class method declarations',
+      scope: [
+        'meta.method.declaration.js.jsx',
+        'meta.method.declaration.ts',
+        'meta.method.declaration.tsx'
+      ],
+      settings: {
+        foreground: colorObj['cyan']
       }
     },
     {

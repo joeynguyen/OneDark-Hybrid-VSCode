@@ -368,6 +368,13 @@
       }
     },
     {
+      "name": "jsx children variable calls",
+      "scope": "meta.jsx.children variable.other.readwrite",
+      "settings": {
+        "foreground": "#96bcd7"
+      }
+    },
+    {
       "name": "object key",
       "scope": [
         "meta.object-literal.key",
@@ -1458,6 +1465,28 @@
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
         "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "js, ts class field declarations",
+      "scope": [
+        "meta.field.declaration.js.jsx variable",
+        "meta.field.declaration.ts variable",
+        "meta.field.declaration.tsx variable"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "js, ts class method declarations",
+      "scope": [
+        "meta.method.declaration.js.jsx",
+        "meta.method.declaration.ts",
+        "meta.method.declaration.tsx"
+      ],
+      "settings": {
+        "foreground": "#65adb2"
       }
     },
     {
